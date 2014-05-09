@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id=“jfcogato.cordova.slides” version=“0.0.1”>
+    <name>Slider</name>
+    <author>nathan & jfcogato</author>
+    <description>Cordova Image slides.</description>
+    <keywords>cordova, image, slide, gridview</keywords>
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+    <js-module src="www/jquery.slides.js" name=“Slider”>
+        <clobbers target=“slides” />
+    </js-module>
+</plugin>
